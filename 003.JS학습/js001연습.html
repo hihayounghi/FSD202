@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>js 기본</title>
+    <script>
+        //document.write("<h2>김하영이다!</h2>")
+        //alert("잽싸게도망가자");
+        //console.log("길을비켜라~");
+        
+        /***************************************************
+            함수명: gogo
+            기능: p박스의 각종 변경지정하기
+        ***************************************************/
+        function gogo(){
+           document.getElementById("name").innerHTML
+            
+        }
+    </script>
+    <style>
+        .pbox{
+            font-size: 25px;
+            width: 700px;
+            height: 700px;
+            border: 4px solid purple;
+            color: #ee4;
+            text-shadow: 1px 1px 1px black;
+        }
+    </style>
+    
+</head>
+<body>
+    <p class="pbox" onclick="gogo">
+        나는 요즘 매일 생각한다. <br>
+        도대체
+        <span id="name"></span>
+    </p>
+</body>
+</html>
